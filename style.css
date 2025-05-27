@@ -1,0 +1,491 @@
+header {
+    height: 100vh;
+    background-image: url(img/Drone_Gallery-4.jpg);
+    background-size: cover;
+    background-position: 0 -200px;
+}
+body {
+    margin: 0;
+}
+header div{
+    display: flex;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.461);
+
+}
+header h1 {
+    margin: auto;
+    margin-left: 40px;
+    color: antiquewhite;
+    font-size: 7vw;
+    font-family: ofont;
+    transition: all 1s;
+}
+@font-face {
+    font-family: ofont;
+    src: url(fonts/ofont.ttf);
+}
+#aaa{
+    background-size: cover;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(rgba(176, 237, 255, 0.87),rgb(16, 64, 169)) ;
+}
+#left{
+    width: 30%;
+    font-size: 3vw;
+    color: #03071f98;
+    padding: 3%;
+    font-family: ofont;
+    transition: all 1s;
+}
+#right{
+    margin: auto;
+    font-family: ofontru;
+    font-size: 3vw;
+    padding: 3%;
+    font-style:initial;
+    color:rgba(124, 225, 255, 0.847);
+    background-color: rgba(0, 15, 52, 0.461); 
+    transition: all 1s;
+}
+@font-face {
+    font-family: ofontru;
+    src: url(fonts/ofontru.ttf);
+}
+#aaa button{
+    padding: 10px 15px;
+    background-color: #1d5fc970;
+    border: none;
+}
+#aaa button a{
+    color:rgb(0, 44, 82);
+    font-family: ofontru;
+    font-size: 3.5vw;
+    padding: 2%;
+  }
+  #jp{
+    display: flex;
+  }
+  #jp img{
+      width:30%
+  }
+  #jp div{
+      width:40%;
+      background-color: #eac0ce;
+      padding: 10% 5%;
+  }
+  #jp h2{
+      text-align: center;
+      font-family: ofont;
+      font-size: 3vw;
+  }
+#ch{
+    color: rgba(0, 80, 155, 0.796);
+    background-size: cover;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.461);
+}
+#ch img{
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+    transition: all 1s;
+}
+#ch div{
+    width: 30%;
+    transition: all 1s;
+}
+body {
+    height: 100%;
+}
+@-webkit-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-o-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-moz-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#ch h2{
+    color: rgba(14, 246, 199, 0.796);
+    font-family: ofont;
+    font-size: 5vw;
+    text-shadow: 
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black;
+}
+#ch p{
+    color: rgba(88, 189, 232, 0.945);
+    font-size: 2.5vw;
+    line-height: 1;
+    font-family: ofontru;
+    text-shadow: 
+    -2px -1px 0 rgba(0, 0, 0, 0.336),
+    2px -1px 0 black,
+    -2px 1px 0 black,
+    2px 1px 0 black;
+}
+#Japan{
+    display: flex;
+}
+#Japan img{
+    width: 30%;
+    top: 50px;
+    object-fit: cover;
+}
+#Japan div{
+    width: 30%;
+    background-color: #07ccbcc0;
+    padding: 5% 5%;
+    transition: all 1s;
+}
+#Japan h2{
+    text-align: center;
+    font-family: ofont;
+    font-size: 3vw;
+}
+#Japan p{
+    text-align: center;
+    font-family: ofontru;
+    font-size: 2vw;
+}
+#gallery{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 100vh;
+    background-image: url(img/фон.jpg);
+    background-size: cover;
+    background-position: 0 -200px;
+}
+#gallery div{
+    padding: 10px;
+    height: 100vh;
+    /* filter: blur(10%); */
+    background-color: rgba(0, 0, 0, 0.461);
+}
+#Mesta {
+    font-family: ofont;
+    margin-top: 0,2%;
+    text-align: center;
+    color: rgb(193, 253, 250);
+    font-size: 2.5vw;
+}
+#gallery h3{
+    font-family: ofontru;
+    margin-top: 1.5%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.884);
+    font-size: 1.8vw;
+}
+#pics img{
+    width: 22vw;
+    height: 22vw;
+    object-fit: cover;
+}
+#pics {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    animation: move 3s linear infinite alternate;
+}
+#pc1{
+    border: 5px solid rgb(3, 70, 107);
+    border-radius: 20%;
+}
+@keyframes move {
+    0%{transform: translateX(-40px);}
+    100%{transform: translateX(2vw);}
+}
+#egypt{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding-bottom: 100px;
+    background-color: #001747;
+}
+#egypt #right {
+    font-family: ofontru;
+    width: 90%;
+    color: rgb(0, 115, 176);
+    padding: 1%;
+    line-height: 1.7;
+    font-size: 2vw;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgb(157, 255, 242);
+    transition: all 1s;
+}
+#egypt img{
+    width: 35%;
+    height: 700px;
+    object-fit: cover;
+    transition: all 1s;
+}
+#egypt #info img{
+    width: 90%;
+    height: 60%;
+    object-fit: cover;
+}
+#right{
+    width: 90%;
+    height: auto;
+    transition: all 1s;
+}
+#right h2{
+    text-align: center;
+    font-family: ofont;
+    font-size: 3vw;
+}
+#right p{
+    text-align: center;
+    font-family: ofontru;
+    font-size: 2vw;
+}
+#info div{
+    width: 80%;
+    border: 3px solid rgba(154, 245, 248, 0.911);
+    box-shadow: 5px 5px 5px 5px silver;
+    margin-left: 20%;
+    margin-top: -90px;
+    padding: 30px;
+    box-sizing: border-box;
+    z-index: 10;
+    background-color: #60ddd5;
+    position: relative;
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+#eg img{
+    width: 185%;
+    height: 890px;
+    object-fit: cover;
+}
+#london{
+    display: flex;
+    flex-direction: column;
+    /* text-align: right; */
+    background: linear-gradient(rgb(201, 8, 8) 75%, white 15%);
+}
+#london h2{
+    text-align: center;
+    font-family: ofont;
+    font-size: 6vw;
+    margin-right: 1px;
+    color: white;
+}
+#london img{
+    margin-left: 10px;
+    margin-top: 1%;
+    height: 40vw;
+    width: 30vw;
+    display: flex;
+}
+#london h4{
+    font-size: 3vw;
+    font-family: ofontru;
+    color: white;
+    text-align:center;
+    margin-right: 20px;
+    display: flex;
+}
+#body{
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    padding: 20px;
+}
+#Csilla{
+    background-image: url(img/чилла.jpg);
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    height: 80vh;
+    /* text-align: right; */
+ }
+ #Csilla1{
+    font-size: 3vw;
+    font-family: ofont;
+    color: #19c9ff;
+    font-size: 3vw;
+ }
+ #Csilla2{
+    font-size: 3vw;
+    font-family: ofontru;
+    color: #00eaff;
+    font-size: 2vw;
+    margin-left: 40%;
+ }
+#galaxy{
+    background-image: url(img/галак.PNG);
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    height: 150vh;
+}
+#Centaurus1{
+    font-family: ofont;
+    font-size: 3vw;
+    line-height: 4;
+    color: #ffffff;
+    position:relative;
+    left: 10px;
+    top: 10px;
+}
+#Centaurus2{
+    font-size: 1vw;
+    font-family: ofontru;
+    width: 200%;
+    font-size: 3em;
+    line-height: 1;
+    color:#ffffff;
+    align-self: flex-end;
+    text-shadow: 
+    -2px -1px 0 rgba(0, 0, 0, 0.336),
+    2px -1px 0 black,
+    -2px 1px 0 black,
+    2px 1px 0 black;
+}
+#bron {
+    background-color: #0059dfde;
+    padding: 80px;
+    border-radius: 120px;
+    box-shadow: 0 40px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+    color: #053b5f;
+}
+#bron h2{
+    font-family: ofont;
+    font-size: 4vw;
+    width: 100%;
+    color: #52ebff;
+    text-shadow: 
+    -2px -1px 0 rgba(0, 0, 0, 0.336),
+    2px -1px 0 black,
+    -2px 1px 0 black,
+    2px 1px 0 black;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+    font-family: ofontru;
+    font-size: 1.3vw;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 4px solid rgba(2, 64, 158, 0.507);
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: border-color 2s;
+}
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #1e47cc;
+    outline: none;
+}
+input[type="submit"] {
+    font-family: ofont;
+    background-color: #26b4ec;
+    color: rgba(243, 243, 243, 0.76);
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0f1179;
+}
+#bron2 {
+    background-color: #df0000de;
+    padding: 80px;
+    border-radius: 150px;
+    box-shadow: 0 40px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+    color: #5f0505;
+}
+#bron2 h2{
+    font-family: ofont;
+    font-size: 3vw;
+    width: 120%;
+    color: #5f0505;
+    text-shadow: 
+    -2px -1px 0 rgb(255, 253, 253),
+    2px -1px 0 rgb(255, 255, 255),
+    -2px 1px 0 rgb(255, 255, 255),
+    2px 1px 0 rgb(255, 255, 255);
+}
+#bron2 p{
+    font-family: ofontru;
+    font-size: 1.5vw;
+    width: 120%;
+    color: #270909;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: rgb(0, 2, 99);
+}
+.footer h2{
+    font-family: ofontru;
+    font-size: 2vw;
+    color: #003481;
+    text-align: center;
+}
+nav{
+    padding: 25px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    font-family: ofontru;
+    font-size: 2vw;
+    text-decoration: none;
+    color: #008bb6;
+    border-right: 2px solid #50686c;
+    width: 20%;
+    text-align: center;
+    box-sizing: border-box;
+}
+nav a:last-child{
+    border: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+#up{
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+nav a:hover{
+    color: white;
+}

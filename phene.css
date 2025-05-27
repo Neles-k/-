@@ -1,0 +1,175 @@
+@media (max-width:1000px){
+  header {
+    background-position: center;
+    height: 40vh;
+}
+header div{
+    height:50vh ;
+}
+header h1{
+    font-size: 8vw;
+}
+#ch{
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 50px;
+} 
+#ch h2{
+  font-size: 9vw;
+}
+#ch div{
+  width: 100%;
+}
+#ch p{
+  color:rgba(88, 189, 232, 0.945);
+  font-size: 7vw;
+  line-height: 1.5;
+}
+#ch button{
+  padding: 15px 70px;
+  font-size: 3vw;
+}
+#ch img{
+  width: 70vw;
+  height:70vw;
+}
+  #Japan{
+   flex-direction: column;
+  }
+  #Japan img {
+    width: 100%;
+    height: 20%;
+  }
+  #Japan div {
+    width: 100%;
+    background-color: rgb(220, 124, 237);
+    padding: 15% 5%;
+    box-sizing: border-box;
+  }
+  #Japan h2 {
+    text-align: center;
+    font-size: 5vw;
+  }
+  #gallery{
+    background-position: center;
+    height: 30vh;
+    flex-direction: column;
+  }
+  #Mesta p{
+    text-align: center;
+    font-family: ofont;
+    font-size: 3vw;
+  }
+  #pics img{
+    width: 20%;
+  }
+  #egypt{
+    flex-direction: column;
+    padding: 0;
+  }
+  #egypt #info{
+    width: 100%;
+    height: fit-content;
+  }
+  #egypt img{
+    width: 70%;
+    height: 30%;
+  }
+  }
+   #right{
+    width: 50%;
+    padding: 4% 4%;
+    height: 25vh;
+    font-size: 2vw;
+   }
+
+   #aaa button {
+    width: 10vh;
+   }
+   #aaa button a{
+    font-size: 3vw;
+    padding: 4% 1%;
+  }
+   #info{
+    width: 90%;
+    height: 50vh;
+    background-position: center;
+   }
+   #right h2{
+    text-align: center;
+    font-family: ofont;
+    font-size: 3vw;
+   }
+   #right p{
+    text-align: center;
+    font-family: ofontru;
+    font-size: 4vw;
+   }
+   #Csilla{
+    background-image: url(img/чилла.jpg);
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    height: 20vh;
+    position: relative;
+ }
+ #Csilla2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 280px;
+  height: 100px;
+  font-family: ofontru;
+  font-size: 3vw;
+  margin-left: 10%;
+ }
+ #Csilla1{
+  position: absolute;
+  left: 1px;
+  top: 5px;
+  font-family: ofontru;
+  font-size: 3vw;
+  margin-left: 10%;
+ }
+ #galaxy{
+  background-image: url(img/галак.PNG);
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  height: 20vh;
+  position: relative;
+}
+#Centaurus2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 280px;
+  height: 100px;
+text-align: center;
+font-family: ofontru;
+font-size: 3vw;
+margin-left: 2%;
+}
+#Centaurus1{
+font-family: ofontru;
+font-size: 5vw;
+margin-left: 1%;
+}
+#Centaurus1 h2{
+  font-family: ofont;
+    font-size: 4vw;
+    line-height: 4%;
+}
+nav{
+  flex-direction: column;
+}
+nav a{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #50536c;
+  font-size: 6vw;
+}
+nav a:hover{
+  background-color: white;
+  color: #506b6c;
+}
